@@ -1,0 +1,44 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: green;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .container {
+        background-color: #ADD8E6;
+    }
+}
+
+.cabecalho {
+    background-color: #4682b4;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo-principal {
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.subtitulo {
+    color: #f0f8ff;
+}
+
+.conteudo {
+    background-color: #f5f5f5;
+    color: #2f4f4f;
+    padding: 20px;
+}
+
+.conteudo > p {
+    color: #E4005A;
+    font-size: 42px;
+}
+
+.conteudo .terceirop {
+    color: purple;
+    vertical-align: sub;
+}
